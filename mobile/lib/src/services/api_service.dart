@@ -1,16 +1,33 @@
 import 'dart:convert';
 
+import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 
 class ApiService {
   ApiService({http.Client? client}) : _client = client ?? http.Client();
 
-  static const String _baseUrl = 'http://10.0.2.2:8000/api/v1';
-
   final http.Client _client;
   String? _token;
 
   bool get isAuthenticated => _token != null;
+
+  String get _baseUrl {
+    const configuredBaseUrl = String.fromEnvironment('SAASKIT_API_BASE_URL');
+
+    if (configuredBaseUrl.isNotEmpty) {
+      return configuredBaseUrl;
+    }
+
+    if (kIsWeb || defaultTargetPlatform == TargetPlatform.windows) {
+      return 'http://127.0.0.1:8000/api/v1';
+    }
+
+    if (defaultTargetPlatform == TargetPlatform.android) {
+      return 'http://10.0.2.2:8000/api/v1';
+    }
+
+    return 'http://127.0.0.1:8000/api/v1';
+  }
 
   Future<Map<String, dynamic>> login({
     required String email,
