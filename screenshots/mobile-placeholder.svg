@@ -1,0 +1,19 @@
+<svg width="720" height="1280" viewBox="0 0 720 1280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="1280" fill="#EEF2FF"/>
+  <rect x="180" y="40" width="360" height="1200" rx="48" fill="#0F172A"/>
+  <rect x="205" y="100" width="310" height="1080" rx="36" fill="#F8FAFC"/>
+  <text x="240" y="180" fill="#0F172A" font-family="Arial, sans-serif" font-size="32" font-weight="700">SaaSKit Lite</text>
+  <rect x="240" y="260" width="240" height="56" rx="16" fill="#E2E8F0"/>
+  <rect x="240" y="340" width="240" height="56" rx="16" fill="#E2E8F0"/>
+  <rect x="240" y="430" width="240" height="64" rx="20" fill="#0F766E"/>
+  <text x="304" y="470" fill="white" font-family="Arial, sans-serif" font-size="22" font-weight="700">Login</text>
+  <rect x="240" y="560" width="240" height="140" rx="24" fill="#1D4ED8"/>
+  <rect x="240" y="730" width="240" height="140" rx="24" fill="#F97316"/>
+  <rect x="240" y="900" width="240" height="140" rx="24" fill="#0F766E"/>
+  <text x="268" y="620" fill="white" font-family="Arial, sans-serif" font-size="18">Products</text>
+  <text x="268" y="668" fill="white" font-family="Arial, sans-serif" font-size="46" font-weight="700">15</text>
+  <text x="268" y="790" fill="white" font-family="Arial, sans-serif" font-size="18">Active</text>
+  <text x="268" y="838" fill="white" font-family="Arial, sans-serif" font-size="46" font-weight="700">12</text>
+  <text x="268" y="960" fill="white" font-family="Arial, sans-serif" font-size="18">Users</text>
+  <text x="268" y="1008" fill="white" font-family="Arial, sans-serif" font-size="46" font-weight="700">5</text>
+</svg>
