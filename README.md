@@ -297,8 +297,8 @@ curl --request POST \
 
 The repository is ready for screenshots and already includes placeholder assets:
 
-- [Dashboard Placeholder](./screenshots/dashboard-placeholder.svg)
-- [Mobile Placeholder](./screenshots/mobile-placeholder.svg)
+- [Dashboard Placeholder](./screenshots/dashboard-placeholder.png)
+- [Mobile Placeholder](./screenshots/mobile-placeholder.png)
 
 Preview placeholders:
 
