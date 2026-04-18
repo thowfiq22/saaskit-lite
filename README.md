@@ -4,6 +4,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 [![Version](https://img.shields.io/badge/Version-v1.0.0-0F766E.svg)](./VERSION)
 
+⭐ If you find this useful, please star the repo to support the project.
+
 Lightweight, developer-friendly SaaS starter kit for real-world applications.
 
 SaaSKit Lite exists to give teams a clean starting point for SaaS products, admin panels, and API-first systems without the usual starter-kit tradeoff between "too bare to matter" and "too heavy to adapt". It keeps the implementation simple, but the repository structure, API behavior, and documentation are shaped like a project you could actually extend in production.
